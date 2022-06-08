@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-image: url(images/subwayblur.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button {
+    margin: 10px;
+    padding: 10px 40px;
+    font-size: medium;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+h1 {
+    font-size: 70px;
+    color: white;
+    text-shadow: 7px 0px 80px black;
+    font-weight: bold;
+}
+h2 {
+    font-size: 60px;
+    color: white;
+    text-shadow: 7px 0px 80px black;
+    font-weight: bold;
+}
+h1 {
+    font-size: 70px;
+    color: white;
+    text-shadow: 7px 0px 80px black;
+    font-weight: bold;
+}
+p {
+    font-size: 40px;
+    color: black;
+    text-shadow: 7px 0px 80px black;
+    font-weight: bold;
+}
+#increment-btn {
+    background: darkred;
+}
+#save-btn {
+    background: darkgreen;
+}
+#increment-btn:hover {
+    border: 1px solid tomato;
+}
+#save-btn:hover {
+    border: 1px solid green;
+}
