@@ -3,6 +3,7 @@ body {
     background-image: url(images/subwayblur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: max-content;
 }
 button {
     margin: 10px;
@@ -48,4 +49,10 @@ p {
 }
 #save-btn:hover {
     border: 1px solid green;
+}
+#credit {
+    color: black;
+    font-size: 20px;
+    text-align: end;
+    font-weight: bold;
 }
