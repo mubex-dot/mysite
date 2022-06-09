@@ -1,4 +1,5 @@
 let incrementEl = document.getElementById("increment-btn")
+let decrementEl = document.getElementById("decrement-btn")
 let saveEl = document.getElementById("save-btn")
 let resetEl = document.getElementById("reset-btn")
 let count = 0
@@ -7,6 +8,10 @@ function increment() {
     counter.textContent = count
 }
 
+function decrement() {
+    count -= 1
+    counter.textContent = count
+}
 
 function save() {
     let countStr = count + " - "
