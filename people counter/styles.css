@@ -42,17 +42,20 @@ p {
     background: darkred;
 
 }
+#decrement-btn {
+    background: darkgoldenrod;
+}
 #save-btn {
     background: darkgreen;
 }
 #reset-btn {
     background: darkblue;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
 }
 #increment-btn:hover {
     border: 1px solid tomato;
+}
+#decrement-btn:hover {
+    border: 1px solid goldenrod;
 }
 #save-btn:hover {
     border: 1px solid green;
@@ -65,4 +68,18 @@ p {
     font-size: 20px;
     text-align: end;
     font-weight: bold;
+}
+.upper-btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+.lower-btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
 }
