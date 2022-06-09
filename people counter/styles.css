@@ -12,7 +12,7 @@ button {
     border: none;
     border-radius: 8px;
     color: white;
-    font-weight: bold;
+    font-weight: bold;    
 }
 h1 {
     font-size: 70px;
@@ -40,15 +40,25 @@ p {
 }
 #increment-btn {
     background: darkred;
+
 }
 #save-btn {
     background: darkgreen;
+}
+#reset-btn {
+    background: darkblue;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 #increment-btn:hover {
     border: 1px solid tomato;
 }
 #save-btn:hover {
     border: 1px solid green;
+}
+#reset-btn:hover {
+    border: 1px solid lightskyblue;
 }
 #credit {
     color: black;
