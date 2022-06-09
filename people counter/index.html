@@ -11,9 +11,14 @@
   <body>
     <h1>People counted:</h1>
     <h2 id="counter">0</h2>
-    <button id="increment-btn" onclick="increment()">INCREMENT</button>
-    <button id="save-btn" onclick="save()">SAVE</button>
-    <button id="reset-btn" onclick="reset()">RESET</button>
+    <div class="upper-btn">
+      <button id="increment-btn" onclick="increment()">INCREMENT</button>
+      <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+    </div>
+    <div class="lower-btn">
+      <button id="save-btn" onclick="save()">SAVE</button>
+      <button id="reset-btn" onclick="reset()">RESET</button>
+    </div>
     <p id="previous">Previous count :</p>
     <br />
     <br />
