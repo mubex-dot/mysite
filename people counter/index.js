@@ -16,7 +16,7 @@ function save() {
 }
 
 function reset() {
-    let countReset = 0
+    let countReset = "Previous count: " 
     previous.textContent = countReset
     counter.textContent = 0
     count = 0
